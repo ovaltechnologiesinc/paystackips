@@ -4,7 +4,13 @@
   "description": "IP addresses for verifying paystack transactions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public",
+    "patch": "npm version patch && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovaltechnologiesinc/paystackips.git"
   },
   "keywords": [
     "paystack",
@@ -13,5 +19,9 @@
   ],
   "author": "Harrison Enene",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovaltechnologiesinc/paystackips/issues"
+  },
+  "homepage": "https://github.com/ovaltechnologiesinc/paystackips#readme",
   "type": "module"
 }
