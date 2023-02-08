@@ -1,0 +1,17 @@
+{
+  "name": "paystack-ip-addresses",
+  "version": "1.0.0",
+  "description": "IP addresses for verifying paystack transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "paystack",
+    "ip-address",
+    "ip"
+  ],
+  "author": "Harrison Enene",
+  "license": "ISC",
+  "type": "module"
+}
